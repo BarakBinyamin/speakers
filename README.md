@@ -19,7 +19,7 @@ This project is largly a proof of concept, but it works pretty well enough to ma
 2.  [Buy the parts](#hardware), [Download and setup an Arduino IDE for esp32](#software)
 3.  Follow one of the setups in the [src](/src) directory
 
-Have questions? [Make an new Issue](https://github.com/BarakBinyamin/speakers/issues)
+Have questions? [Make a new Issue](https://github.com/BarakBinyamin/speakers/issues)
 
 # Project Directory
 | Name                                   | Purpose                                       | 
