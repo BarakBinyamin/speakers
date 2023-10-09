@@ -26,6 +26,32 @@ Have questions? [Make an new Issue](https://github.com/BarakBinyamin/speakers/is
 | :--                                    | :--                                           |
 |[src](/src)                             | Source code & docs                            |
 
+## Implemented Speaker Networks
+<p align="center">
+<img src="src/point-to-point/point-to-point.png" width="60%"/>
+</p>
+<p align="center">
+    Point to Point, Coming soon...
+</p>
+<p align="center">
+<img src="src/bluetooth-daisychain/bluetooth-daisychain.png" width="60%"/>
+</p>
+<p align="center">
+    Bluetooth Daisychain, <a href="src/bluetooth-daisychain">Link</a>
+</p>
+<p align="center">
+<img src="src/espnow-daisychain/espnow-daisychain.png" width="60%"/>
+</p>
+<p align="center">
+    ESPnow Daisychain,Coming soon...
+</p>
+<p align="center">
+<img src="src/esp-wifi-mesh/esp-wifi-mesh.png" width="60%"/>
+</p>
+<p align="center">
+    ESP Wifi Mesh, Coming soon...
+</p>
+
 # Resources
 ## Hardware
 - Custom Speaker Parts
