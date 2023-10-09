@@ -1,8 +1,10 @@
 # Src
 Source code and documentation related to different applications, includes schematic diagrams
 
-#### Directory 
-- [bluetooth-daisychain](bluetooth-daisychain)
+### Directory 
+| Name                                         | Purpose                                    | 
+| :--                                          | :--                                        |
+|[bluetooth-daisychain](bluetooth-daisychain)  | Connect speakers in series using bluetooth |
 
 ## Todo
 - Bluetooth + espnow network
