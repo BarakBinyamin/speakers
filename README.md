@@ -28,7 +28,7 @@ Have questions? [Make a new Issue](https://github.com/BarakBinyamin/speakers/iss
 
 ## Implemented Speaker Networks
 <p align="center">
-<img src="src/point-to-point/point-to-point.png" width="60%"/>
+<img src="src/point-to-point/point-to-point.png" width="30%"/>
 </p>
 <p align="center">
     Point to Point, Coming soon...
