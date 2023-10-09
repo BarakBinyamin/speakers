@@ -1,5 +1,7 @@
 # Speakers
-Hardware/software for custom bluetooth speakers and synchronization between multiple brands, pls ⭐ this repo if you find it helpful
+Hardware/software for custom bluetooth speakers and synchronization between multiple brands
+
+Pls ⭐ this repo if you find it helpful
 
 Video demos coming soon...
 
@@ -14,8 +16,8 @@ Video demos coming soon...
 This project is largly a proof of concept, but it works pretty well enough to make your own at home speaker system
 
 1. Git `git clone https://github.com/BarakBinyamin/speakers.git`
-2.  [Buy the parts](#hardware), [Download and setup an Arduino IDE for esp32]()
-3.  Follow one of the setups in the [Embedded-src](/Embedded-src) directory
+2.  [Buy the parts](#hardware), [Download and setup an Arduino IDE for esp32](#software)
+3.  Follow one of the setups in the [Embedded-src](/embedded-src) directory
 
 Have questions? [Make an new Issue](https://github.com/BarakBinyamin/speakers/issues)
 
