@@ -1,5 +1,5 @@
-# Embedded-src
-Embedded source code and documentation related to different applications, includes schematic diagrams
+# Src
+Source code and documentation related to different applications, includes schematic diagrams
 
 #### Directory 
 - [bluetooth-daisychain](bluetooth-daisychain)

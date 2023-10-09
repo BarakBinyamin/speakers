@@ -10,21 +10,21 @@ Video demos coming soon...
 - [Resources](#resources)
 	- [Hardware](#hardware)
 	- [Software](#software)
-- [References](#references---kudos)
+- [References](#references--kudos)
 
 # Getting Started
 This project is largly a proof of concept, but it works pretty well enough to make your own at home speaker system
 
 1. Git `git clone https://github.com/BarakBinyamin/speakers.git`
 2.  [Buy the parts](#hardware), [Download and setup an Arduino IDE for esp32](#software)
-3.  Follow one of the setups in the [Embedded-src](/embedded-src) directory
+3.  Follow one of the setups in the [src](/src) directory
 
 Have questions? [Make an new Issue](https://github.com/BarakBinyamin/speakers/issues)
 
 # Project Directory
 | Name                                   | Purpose                                       | 
 | :--                                    | :--                                           |
-|[Embedded-src](/embedded-src)            | Source code & docs                            |
+|[src](/src)                             | Source code & docs                            |
 
 # Resources
 ## Hardware
