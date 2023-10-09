@@ -17,10 +17,10 @@
 BluetoothA2DPSource a2dp_source;
 I2SStream i2sIn;
 I2SStream i2sOut;
-const int    channels                 = 2;
-const size_t max_buffered_packets     = 150;
-const size_t max_buffered_bytes       = max_buffered_packets * sizeof(int16_t) * channels;
-uint8_t      buffer[max_buffer_bytes] = {0};
+const int    channels                   = 2;
+const size_t max_buffered_packets       = 150;
+const size_t max_buffered_bytes         = max_buffered_packets * sizeof(int16_t) * channels;
+uint8_t      buffer[max_buffered_bytes] = {0};
 
 // These buffers are used to delay music going the i2s speaker so that the next bluetooth speaker can sync up
 const size_t num_buffers = 50; // Change based on distance, and number in chain
