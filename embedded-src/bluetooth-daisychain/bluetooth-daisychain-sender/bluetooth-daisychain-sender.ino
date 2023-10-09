@@ -15,33 +15,31 @@ BluetoothA2DPSink a2dp_sink;
 I2SStream i2sOut;
 
 // Write data to I2S
-void read_data_stream(const uint8_t *data, uint32_t length) {
+void on_data_requested(const uint8_t *data, uint32_t length) {
   i2sOut.write(data, length);
 }
 
 void setup() {
   Serial.begin(115200);
-  AudioLogger::instance().begin(Serial, AudioLogger::Info);
-
-  // register callback
-  a2dp_sink.set_stream_reader(read_data_stream, false);
+  AudioLogger::instance().begin(Serial, AudioLogger::Info);  
 
   // Start Bluetooth Audio Receiver
+  a2dp_sink.set_stream_reader(on_data_requested, false);
   a2dp_sink.set_auto_reconnect(false);
   a2dp_sink.start("DataComDemo");
   
   // Start i2s stuff
-  auto cfg = i2sOut.defaultConfig();
-    cfg.port_no         = 0;
-    cfg.pin_bck         = SCK_PIN_OUT;
-    cfg.pin_ws          = WS_PIN_OUT;
-    cfg.pin_data        = DATA_PIN_OUT;
-    cfg.sample_rate     = a2dp_sink.sample_rate();
-    cfg.channels        = 2;
-    cfg.bits_per_sample = 16;
-    cfg.buffer_count    = 8;
-    cfg.buffer_size     = 256;
-  i2sOut.begin(cfg);
+  auto config = i2sOut.defaultConfig();
+    config.port_no         = 0;
+    config.pin_bck         = SCK_PIN_OUT;
+    config.pin_ws          = WS_PIN_OUT;
+    config.pin_data        = DATA_PIN_OUT;
+    config.sample_rate     = a2dp_sink.sample_rate();
+    config.channels        = 2;
+    config.bits_per_sample = 16;
+    config.buffer_count    = 8;
+    config.buffer_size     = 256;
+  i2sOut.begin(config);
 
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, LOW);
