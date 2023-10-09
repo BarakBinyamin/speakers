@@ -15,7 +15,7 @@ Tested with one custom speaker and one JBL speaker
 <img src="wiring-diagram.png" width="80%"/>
 </p>
 <p align="center">
-    One generic unit of the daisychain, the microcontoller on the left is programmed with <a target="_blank" href="bluetooth-daisychain-sender/bluetooth-daisychain-sender.ino">bluetooth-daisychain-sender.ino</a>, the one on right is programmed with <a target="_blank" href="bluetooth-daisychain-reciever/bluetooth-daisychain-reciever.ino">bluetooth-daisychain-reciever.ino</a>
+    One generic unit of the daisychain, the microcontoller on the left is programmed with <a target="_blank" href="bluetooth-daisychain-reciever/bluetooth-daisychain-reciever.ino">bluetooth-daisychain-reciever.ino</a>, the one on right is programmed with <a target="_blank" href="bluetooth-daisychain-sender/bluetooth-daisychain-sender.ino">bluetooth-daisychain-sender.ino</a>
 </p>
 
 ## Software Explained
