@@ -43,7 +43,7 @@ Have questions? [Make an new Issue](https://github.com/BarakBinyamin/speakers/is
 <img src="src/espnow-daisychain/espnow-daisychain.png" width="60%"/>
 </p>
 <p align="center">
-    ESPnow Daisychain,Coming soon...
+    ESPnow Daisychain, Coming soon...
 </p>
 <p align="center">
 <img src="src/esp-wifi-mesh/esp-wifi-mesh.png" width="60%"/>
