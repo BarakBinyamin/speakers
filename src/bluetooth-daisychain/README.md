@@ -1,7 +1,8 @@
 # Bluetooth Daisychain
 Connect and synchronize a few custom speakers togeather, and maybe a non custom speaker too
 
-Tested with one custom speaker and one JBL speaker
+Tested with one custom speaker and one JBL speaker  
+**Max Distance** between nodes line of sight: about 12 feet 
 
 <p align="center">
 <img src="bluetooth-daisychain.png" width="80%"/>

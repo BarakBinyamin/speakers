@@ -23,7 +23,8 @@ const size_t max_buffered_bytes         = max_buffered_packets * sizeof(int16_t)
 uint8_t      buffer[max_buffered_bytes] = {0};
 
 // These buffers are used to delay music going the i2s speaker so that the next bluetooth speaker can sync up
-const size_t num_buffers = 50; // Change based on distance, and number in chain
+// Change based longest distance, and number in chain, about 50 buffers per 6 feet
+const size_t num_buffers                            = 50; 
 int32_t delayBufferReadNum[num_buffers]             = {max_buffered_bytes};
 uint8_t delayBuffer[num_buffers*max_buffered_bytes] = {0};
 int buffer_num                                      = 0;
@@ -61,7 +62,7 @@ void setup(void) {
     config.buffer_size     = 256;
     config.channels        = 2;
     config.sample_rate     = 44100;
-    config.pin_bck         = SCK_PIN_IN;
+    config.pin_bck         = BCK_PIN_IN;
     config.pin_ws          = WS_PIN_IN;
     config.pin_data        = DATA_PIN_IN;
     config.pin_data_rx     = DATA_PIN_IN;
@@ -70,7 +71,7 @@ void setup(void) {
 
   auto config2 = i2sOut.defaultConfig();
     config2.port_no         = 0;
-    config2.pin_bck         = SCK_PIN_OUT;
+    config2.pin_bck         = BCK_PIN_OUT;
     config2.pin_ws          = WS_PIN_OUT;
     config2.pin_data        = DATA_PIN_OUT;
     config2.sample_rate     = 44100;             // Reconsider this, maybe get sample rate from i2sIn

@@ -7,7 +7,7 @@
 
 #define SPEAKER_NAME "DataComDemo"
 #define LED_PIN      2
-#define SCK_PIN_OUT  26 
+#define BCK_PIN_OUT  26 
 #define WS_PIN_OUT   25 
 #define DATA_PIN_OUT 33
 
@@ -31,7 +31,7 @@ void setup() {
   // Start i2s stuff
   auto config = i2sOut.defaultConfig();
     config.port_no         = 0;
-    config.pin_bck         = SCK_PIN_OUT;
+    config.pin_bck         = BCK_PIN_OUT;
     config.pin_ws          = WS_PIN_OUT;
     config.pin_data        = DATA_PIN_OUT;
     config.sample_rate     = a2dp_sink.sample_rate();
