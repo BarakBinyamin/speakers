@@ -1,0 +1,8 @@
+{
+  "appId": "com.pebble.ios",
+  "appName": "Pebble",
+  "webDir": "view/dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

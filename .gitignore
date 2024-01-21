@@ -1,1 +1,10 @@
 .DS_Store
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+.pio
+.vscode
+node_modules
+ios
+dist
