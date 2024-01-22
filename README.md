@@ -15,7 +15,7 @@ Have questions? [Feel free to make a new issue](https://github.com/BarakBinyamin
 <p align="center">
 <img  width="34%" src="img/splitter.jpg"/><img width="65%" src="img/speaker.jpg"/>
 </p>
-<video controls src="img/demo.mp4"></video>
+<video width="100%" controls src="img/demo.mp4"></video>
 
 ## Project Directory
 | Name                                   					| Purpose                                             | 
@@ -68,6 +68,7 @@ VScode + PlatformIO setup
 - [Fritzing](https://fritzing.org/) Arduino diagram/pcb tool 
 - [Fritzing esp32 board](https://forum.fritzing.org/t/doit-esp32-devkit-v1/6158/8), [DOIT Esp32 DevKit v1 improved.fzpz](https://forum.fritzing.org/uploads/default/original/2X/5/52c6aaad54a039b8412a393cc22f929288fa2ac3.fzpz)
 - [PlatformIO with multiple main](https://community.platformio.org/t/here-is-a-simple-way-to-have-many-small-main-apps/26009)
+- [Converting videos to make them smaller (<10mb) for github](https://superuser.com/questions/714804/converting-video-from-1080p-to-720p-with-smallest-quality-loss-using-ffmpeg)
 
 ## References & Kudos
 - [Professor Yang's](https://www.rit.edu/directory/sjyeec-shanchieh-yang) guidance on data communications
