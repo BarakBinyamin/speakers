@@ -15,7 +15,7 @@ Have questions? [Feel free to make a new issue](https://github.com/BarakBinyamin
 <p align="center">
 <img  width="34%" src="img/splitter.jpg"/><img width="65%" src="img/speaker.jpg"/>
 </p>
-<video controls src="img/demo.mov"></video>
+<video controls src="img/demo.mp4"></video>
 
 ## Project Directory
 | Name                                   					| Purpose                                             | 
