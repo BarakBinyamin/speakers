@@ -16,12 +16,8 @@ Have questions? [Feel free to make a new issue](https://github.com/BarakBinyamin
 <img  width="34%" src="img/splitter.jpg"/><img width="65%" src="img/speaker.jpg"/>
 </p>
 
-
 <video width="100%" src="https://github.com/BarakBinyamin/speakers/assets/50957106/339d98e8-0185-44e8-bbd1-b8f943e875be" controls></video>
 
-<p align="center">
-<video controls src="img/demo.mp4"></video>
-</p>
 
 ## Project Directory
 | Name                                   					| Purpose                                             | 
@@ -48,7 +44,6 @@ In order to build the app you need macOS with Xcode & some other dependencies
 
 ## Resources
 ### Hardware
-Custom Speaker Parts
 - [Two or more ESP32 dev board's](https://www.ebay.com/sch/i.html?_nkw=esp32+wroom)
 - [Max98357 i2s DAC Amplifier](https://www.amazon.com/s?k=max98357+i2s+amplifier)
 - [Breadboard's](https://www.amazon.com/s?k=breadboard&crid=3SAWQUGI374BK&sprefix=breadboard+%2Caps%2C331&ref=nb_sb_noss_2)
@@ -59,13 +54,9 @@ Custom Speaker Parts
 [Check out the difference between chipsets](https://www.espressif.com/en/products/socs), basically s3's have 2 cores, s2's have 1 core, S2 WROVERS's have extra ram (accessible with extra work) vs S2 WROOM's 
 
 ### Software
-App Setup
 - [Nodejs](https://nodejs.org/en)
-
-VScode + PlatformIO setup
 - [VScode](https://code.visualstudio.com/)
 - [PlatformIO for VScode](https://platformio.org/install/ide?install=vscode)
-
 
 
 ## Some other useful resources
