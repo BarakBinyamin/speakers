@@ -7,8 +7,6 @@ Hardware/software for a bluetooth splitter + iphone app, and custom bluetooth sp
 - [Resources](#resources)
 	- [Hardware](#hardware)
 	- [Software](#software)
-- [Bluetooth splitter](#bluetooth-splitter)
-- [Bluetooth speaker](#bluetooth-speaker)
 - [References](#references--kudos)
 
 Have questions? [Feel free to make a new issue](https://github.com/BarakBinyamin/speakers/issues), Also ⭐ this repo!
