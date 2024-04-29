@@ -36,7 +36,7 @@ Distributed Mode Loudspeakers, first developed by NXP in 1960, use this type of 
 
 This project aims to reveal how to create low cost high performant speakers by extending techniques and resources discovered by Tech Ingredients, utilizing the ESP32 development platform, Ptchzults bluetooth a2dc library, and an efficiant i2s dac amplifier. 
 
-Cost to produce one spekaer: $5 + $10 + $5 + Craft
+Cost to produce one speaker: $6/ESP32 + $10/transducer + $5/amplifier + Free cardboard
 
 ## Getting Started
 1. [Buy the parts](#hardware), [Download and setup an VScode with platformIO](#software)  
