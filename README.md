@@ -1,7 +1,8 @@
 # Speakers
-Hardware/software for a bluetooth splitter + iphone app, and custom bluetooth speaker
+Hardware/software for a bluetooth splitter + iphone app, and custom bluetooth speaker presented at [Imagine RIT 2024](https://www.rit.edu/imagine/exhibits/new-age-speakers)
 
 - [Project Directory](#project-directory)
+- [Motivation](#motivation)
 - [Getting Started](#getting-started)
 - [Resources](#resources)
 	- [Hardware](#hardware)
@@ -10,7 +11,7 @@ Hardware/software for a bluetooth splitter + iphone app, and custom bluetooth sp
 - [Bluetooth speaker](#bluetooth-speaker)
 - [References](#references--kudos)
 
-Have questions? [Feel free to make a new issue](https://github.com/BarakBinyamin/speakers/issues)
+Have questions? [Feel free to make a new issue](https://github.com/BarakBinyamin/speakers/issues), Also ⭐ this repo!
 
 <p align="center">
 <img  width="34%" src="img/splitter.jpg"/><img width="65%" src="img/speaker.jpg"/>
@@ -30,12 +31,27 @@ Have questions? [Feel free to make a new issue](https://github.com/BarakBinyamin
 |[partition-more-pgrm-mem.csv](partition-more-pgrm-mem.csv) | Memory configuration file for esp32                 |
 |[platformio.ini](platformio.ini)                           | PlatformIO configuration file                       |
 
+## Motivation
+Most common speakers operate off of similar principles. A magnet, a coil, and a cone shaped diaphragm. To get louder and or/higher quality, one can improve these three parts, usually increasing size and complexity at a higher cost. But there has been a recent breakthrough in speaker technology that has not been explored to its new potential. Invented in 1960s, the tactile transducer, also known as a "shaker", has been mostly used in bass speakers, but new innovations by Dayton Audio have increased the frequency range, and decreased the power consumption. This enabling device has started making it's way into high end equipment, but has not yet seen the light of low cost opportunities. 
+
+Distributed Mode Loudspeakers, first developed by NXP in 1960, use this type of exciter combined with a panel to produce distibuted sound rather then directed as with conventional speakers. 
+
+This project aims to reveal how to create low cost high performant speakers by extending techniques and resources discovered by Tech Ingredients, utilizing the ESP32 development platform, Ptchzults bluetooth a2dc library, and an efficiant i2s dac amplifier. 
+
+Cost to produce one spekaer: $5 + $10 + $5 + Craft
+
 ## Getting Started
-1. `git clone https://github.com/BarakBinyamin/speakers.git`
-2. [Buy the parts](#hardware), [Download and setup an VScode](#software)  
+1. [Buy the parts](#hardware), [Download and setup an VScode with platformIO](#software)  
+2. `git clone https://github.com/BarakBinyamin/speakers.git`
 
 ### Speaker
-1. [Build the speaker](src)
+No app is needed if you're just trying to make the speaker
+1. Wire up the speaker
+```
+Arduino diagram coming soon...
+```
+2. Open the speakers folder in vscode and Click the platformio bug icon>speaker>upload
+3. Connect to "rockz speaker" from your phone and play some music 🎵
 
 ### Splitter
 In order to build the app you need macOS with Xcode & some other dependencies
@@ -56,8 +72,7 @@ In order to build the app you need macOS with Xcode & some other dependencies
 ### Software
 - [Nodejs](https://nodejs.org/en)
 - [VScode](https://code.visualstudio.com/)
-- [PlatformIO for VScode](https://platformio.org/install/ide?install=vscode)
-
+- [PlatformIO for VScode](https://platformio.org/install/ide?install=vscode), check out [this link](https://randomnerdtutorials.com/esp32-troubleshooting-guide/#COM-port-not-found) if you have issues finding the esp32 when its plugged in
 
 ## Some other useful resources
 - [Rui & Sarah Santos ESP32 Tutorials](https://randomnerdtutorials.com/getting-started-with-esp32/)
@@ -70,3 +85,4 @@ In order to build the app you need macOS with Xcode & some other dependencies
 ## References & Kudos
 - [Professor Yang's](https://www.rit.edu/directory/sjyeec-shanchieh-yang) guidance on data communications
 - [Dr. Kwasinski's](https://www.rit.edu/directory/axkeec-andres-kwasinski) unpublished notes data communications
+- [Tech Ingredients](https://www.youtube.com/watch?v=CKIye4RZ-5k&t=2s) Reserach On Speakers Distributed Mode Loudspeakers

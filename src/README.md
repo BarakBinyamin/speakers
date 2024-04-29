@@ -9,7 +9,3 @@ Source code and docs for a bluetooth splitter & speaker
 |[main-peripheral1.cpp](main-peripheral1.cpp)  | redistributes i2s to a2dp                                     | 
 |[main-speaker.c](main-speaker.c)              | A bluetooth speaker                                               |
 
-## Todo
-
-
-## Refrences & Resources

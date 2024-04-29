@@ -2,7 +2,7 @@
 #include "BluetoothA2DPSink.h"
 #include "AudioTools.h"
 
-#define SPEAKER_NAME "DataComDemo"
+#define SPEAKER_NAME "Rockz Speaker"
 #define LED_PIN      LED_BUILTIN
 #define BCK_PIN_OUT  26 
 #define WS_PIN_OUT   25 
