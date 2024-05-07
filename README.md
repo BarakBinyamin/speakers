@@ -45,10 +45,13 @@ Cost to produce one speaker: $6/ESP32 + $10/transducer + $5/amplifier + Free car
 ### Speaker
 No app is needed if you're just trying to make the speaker
 1. Wire up the speaker
-```
-Arduino diagram coming soon...
-```
-2. Open the speakers folder in vscode and Click the platformio bug icon>speaker>upload
+
+<p align=center>
+<img src="img/Speakers_schematic.png" width="75%">
+</p>
+
+2. Open the speakers folder in vscode and Click the PlatformIO <img src="img/Pio.png" width=15px/>>speaker>upload  
+
 3. Connect to "rockz speaker" from your phone and play some music 🎵
 
 ### Splitter
