@@ -47,7 +47,7 @@ No app is needed if you're just trying to make the speaker
 1. Wire up the speaker
 
 <p align=center>
-<img src="img/Speakers_schematic.png" width="75%">
+<img src="img/Speakers_schematic.png" width="50%">
 </p>
 
 2. Open the speakers folder in vscode and Click the PlatformIO <img src="img/Pio.png" width=15px/>>speaker>upload  
